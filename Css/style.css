@@ -1,0 +1,102 @@
+/* début haut de page accueil */
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-accueil{
+    position: relative;
+    z-index: 1000;
+}
+
+.img-accueil{
+    position: absolute;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+ul li{
+    display: flex;
+    padding: 0px 10px;
+    color: white;
+}
+
+.book{
+    border: 1px solid #FE824C;
+    padding: 10px 10px;
+    margin: 0px 5px;
+    background-color: #FE824C;
+}
+
+.exmenu{
+    padding: 10px 10px;
+    margin: 0px 5px;
+}
+
+.book:hover{
+    border: 1px solid #fe524c;
+    background-color: #fe524c;
+    text-shadow: 1px 1px black;
+}
+
+.block-haut{
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 40%;
+    background-color: #42BAF7;
+    border-top: 1px solid #42BAF7;
+    border-right: 1px solid #42BAF7;
+    border-left: 1px solid #42BAF7;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    height: 318px;
+    position: absolute;
+    top: 437px;
+    left: 150px
+}
+
+.block-haut .block-haut-top{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.block-haut .block-haut-bas{
+    display: flex;
+    width: 48%;
+    font-size: 21px;
+    color: #42BAF7;
+    background-color: white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+/* fin */
+
+/* Block page 2 */
+
+.block2-top{
+    z-index: 2000;
+}
+
+/* fin */
